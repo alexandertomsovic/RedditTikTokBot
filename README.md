@@ -35,7 +35,7 @@ We are working to implement an feature that will allow instant autonomous upload
 
 ## Initial Installation 
 
-1. Clone this repository via GitHub () **UPDATE**
+1. Clone this repository via [GitHub](https://github.com/alexandertomsovic/RedditTikTokBot)
 
 2. 2A **Automatic Install**: Run `python main.py` and type "yes" to initiate automatic setup. 
    If this step fails, try manually installing.
@@ -65,7 +65,7 @@ We are working to implement an feature that will allow instant autonomous upload
 If  you get an error installing or running the bot:
 
 -  Rerun the command with a "3" after the name (python3 or pip3)
--  Reinstall the repository () **UPDATE**
+-  Reinstall the repository from [GitHub](https://github.com/alexandertomsovic/RedditTikTokBot)
 - Create a Repository pull request via GitHub
 
 ## Video
@@ -92,8 +92,8 @@ Please read the [contributing guidelines](CONTRIBUTING.md) for more information!
 ------------------------------------------------------------------------------------
 RedditTikTokBot, an opensource project by A.R.T. LLC.
 
-Owned and operated by *Alex Tomsovic*
+Owned and operated by *Alexander Tomsovic*
 
-https://linktr.ee/alextomsovic
+[LinkTree](https://linktr.ee/alextomsovic)
 
 
