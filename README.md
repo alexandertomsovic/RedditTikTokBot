@@ -31,7 +31,7 @@ We are working to implement an feature that will allow instant autonomous upload
 
 - Python 3.8 +
 - Playwright (should be installed with requirements in the first installation leg)
-- Sox [SoX](https://sourceforge.net/projects/sox/files/sox/)
+- [SoX](https://sourceforge.net/projects/sox/files/sox/)
 
 ## Initial Installation 
 
