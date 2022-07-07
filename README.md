@@ -10,8 +10,8 @@ Created by Alexander Tomsovic {A.R.T. LLC} (https://linktr.ee/alextomsovic)
 
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://static.wixstatic.com/media/1679f2_3732c6ee483a441ca220e4534ac65de8~mv2.png/v1/fill/w_600,h_147,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture-removebg-preview%20(2).png">
-  <source media="(prefers-color-scheme: light)" srcset="https://static.wixstatic.com/media/1679f2_3732c6ee483a441ca220e4534ac65de8~mv2.png/v1/fill/w_600,h_147,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture-removebg-preview%20(2).png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://static.wixstatic.com/media/1679f2_3732c6ee483a441ca220e4534ac65de8~mv2.png/v1/crop/x_39,y_0,w_666,h_173/fill/w_567,h_147,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture-removebg-preview%20(2).png">
+  <source media="(prefers-color-scheme: light)" srcset="https://static.wixstatic.com/media/1679f2_3732c6ee483a441ca220e4534ac65de8~mv2.png/v1/crop/x_39,y_0,w_666,h_173/fill/w_567,h_147,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Capture-removebg-preview%20(2).png">
   <img src="" width="350">
 </picture>
 
