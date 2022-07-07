@@ -1,0 +1,99 @@
+# Reddit TikTok Video Bot 🎥
+
+Created with:
+0 asset compiling
+0 Video Editing 
+
+Enjoy!
+
+Created by Alexander Tomsovic {A.R.T. LLC} (https://linktr.ee/alextomsovic)
+
+<a target="_blank" href="https://tmrrwinc.ca">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/6053155/170528535-e274dc0b-7972-4b27-af22-637f8c370133.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/6053155/170528582-cb6671e7-5a2f-4bd4-a048-0e6cfa54f0f7.png">
+  <img src="https://user-images.githubusercontent.com/6053155/170528582-cb6671e7-5a2f-4bd4-a048-0e6cfa54f0f7.png" width="350">
+</picture>
+
+</a>
+
+## Utility 
+
+TikTok trends have changed with the newest trend being emotional, creepy, or enchanting reddit threads read aloud with Minecraft gameplay played in the background. 
+Having seen hundreds of vidoes in this format go viral, I decided to build a program to automate this process. 
+
+## Disclaimer
+
+**At this current time**, this program will not upload final output videos to TikTok. It will store them in the *results* folder where you can upload them manually. 
+We are working to implement an feature that will allow instant autonomous uploads! Check the repository page for updates! () **UPDATE**
+
+## Requirements
+
+- Python 3.8 +
+- Playwright (should be installed with requirements in the first installation leg)
+- Sox [SoX](https://sourceforge.net/projects/sox/files/sox/)
+
+## Initial Installation 
+
+1. Clone this repository via GitHub () **UPDATE**
+
+2. 2A **Automatic Install**: Run `python main.py` and type "yes" to initiate automatic setup. 
+   If this step fails, try manually installing.
+
+   2B **Manual Install**: Rename the `.env.template` file to `.env` and enter the correct values into each field. CASE SENSITIVE! Reddit Keys for the *CLIENT ID* and *Secret Key* can be found here: [the Reddit Apps page.] (https://www.reddit.com/prefs/apps) 
+   
+
+## Getting Reddit Keys:
+
+-  Click "Create App" 
+-  Choose the "Script" option
+-  Copy your *CLIENT ID* and *Secret Key* into the `.env` file
+-  Enter the remaining items into the appropriate fields. 
+
+## Primary Installation
+
+1. Install [SoX](https://sourceforge.net/projects/sox/files/sox/)
+   
+2. Run `pip install -r requirements.txt` into your Python Terminal.
+
+3. Run `playwright install` and `playwright install-deps`. (Add python -m to the front of the command if this step fails)
+
+4. Run `python main.py` if you chose to manually install this repository, otherwise this will automatically run. 
+
+5. Happy Automating!
+
+If  you get an error installing or running the bot:
+
+-  Rerun the command with a "3" after the name (python3 or pip3)
+-  Reinstall the repository () **UPDATE**
+- Create a Repository pull request via GitHub
+
+## Video
+
+https://user-images.githubusercontent.com/66544866/173453972-6526e4e6-c6ef-41c5-ab40-5d275e724e7c.mp4
+
+## Contributions / Future Improvements 
+
+RedditTikTokBot works perfectly in its current version, but I believe there is a lot to be desired. Here are a list of items that should be i,m
+
+- [ ] Writing a thourough documentation and impementing a CLI.
+- [ ] Bypassing *CLIENT ID* and *Secret Key* requirements. 
+- [x] Allowing custom reddit threads. 
+- [x] Allowing users to choose a background that is picked instead of the Minecraft one.
+- [x] Allowing users to choose between any subreddit.
+- [x] Allowing users to change voice.
+- [x] Checks if a video has already been created
+- [x] Light and Dark modes
+- [x] NSFW post filter
+
+Please read the [contributing guidelines](CONTRIBUTING.md) for more information!
+
+
+------------------------------------------------------------------------------------
+RedditTikTokBot, an opensource project by A.R.T. LLC.
+
+Owned and operated by *Alex Tomsovic*
+
+https://linktr.ee/alextomsovic
+
+
