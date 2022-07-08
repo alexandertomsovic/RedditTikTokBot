@@ -1,8 +1,6 @@
-# Reddit TikTok Video Bot 🎥
+# Reddit TikTok Video Bot 
 
-Created with:
-0 asset compiling
-0 Video Editing 
+RedditTikTokBot automates the creation of the viral TikTok Reddit comment-read video format by compiling gameplay and sourcing interesting threads from various subreddits to allow users to generate unlimited content for spaces such as TikTok, Youtube shorts, and Instagram Reels!  
 
 Enjoy!
 
