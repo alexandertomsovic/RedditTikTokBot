@@ -74,8 +74,9 @@ https://user-images.githubusercontent.com/66544866/173453972-6526e4e6-c6ef-41c5-
 
 ## Contributions / Future Improvements 
 
-RedditTikTokBot works perfectly in its current version, but I believe there is a lot to be desired. Here are a list of items that should be i,m
+RedditTikTokBot works perfectly in its current version, but I believe there is a lot to be desired. Here are a list of items that should be implemented in the near future in order to maximize this program's utility.
 
+- [ ] Automatic uploads to social media accounts.
 - [ ] Writing a thourough documentation and impementing a CLI.
 - [ ] Bypassing *CLIENT ID* and *Secret Key* requirements. 
 - [x] Allowing custom reddit threads. 
