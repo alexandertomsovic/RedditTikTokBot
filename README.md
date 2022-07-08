@@ -6,7 +6,7 @@ Created with:
 
 Enjoy!
 
-Created by Alexander Tomsovic {A.R.T. LLC} (https://linktr.ee/alextomsovic)
+Created by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
 
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
