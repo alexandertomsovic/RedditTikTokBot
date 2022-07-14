@@ -1,118 +1,102 @@
-# Contributing to Reddit Video Maker Bot 🎥
+# RedditTikTokBot Contributions
 
-Thanks for taking the time to contribute! ❤️
+All types of contributions are welcomed, valued, and appeciated!
 
-All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for the maintainers and smooth out the experience for all involved. We are looking forward to your contributions. 🎉
+Open the [Table of Contents](#table-of-contents) for ideas on helpful implementations! Make sure to read our page on contribution sections thoroughly in order to allow ease of maintanence and updating for developers.
 
-> And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
->
-> - ⭐ Star the project
-> - 📣 Tweet about it
-> - 🌲 Refer this project in your project's readme
+Other ways to help RedditTikTokBot include: 
+
+- Star this [program](https://github.com/alexandertomsovic/RedditTikTokBot)
+- [Tweet](https://twitter.com/i/flow/login) or post this project via [Instagram](https://www.instagram.com/accounts/login/?hl=en)
+- Support the creators other [projects](https://linktr.ee/alextomsovic)
 
 ## Table of Contents
 
-- [Contributing to Reddit Video Maker Bot 🎥](#contributing-to-reddit-video-maker-bot-)
+- [Contributing to RedditTikTokBot](#contributing-to-reddit-video-maker-bot-)
   - [Table of Contents](#table-of-contents)
-  - [I Have a Question](#i-have-a-question)
-  - [I Want To Contribute](#i-want-to-contribute)
-    - [Reporting Bugs](#reporting-bugs)
-      - [How Do I Submit a Good Bug Report?](#how-do-i-submit-a-good-bug-report)
-    - [Suggesting Enhancements](#suggesting-enhancements)
-      - [How Do I Submit a Good Enhancement Suggestion?](#how-do-i-submit-a-good-enhancement-suggestion)
-    - [Your First Code Contribution](#your-first-code-contribution)
-      - [Your environment](#your-environment)
-      - [Making your first PR](#making-your-first-pr)
-    - [Improving The Documentation](#improving-the-documentation)
+  - [Questions](#questions)
+  - [Contributions](#contributions)
+    - [Bug Reports](#bug-reports)
+      - [Submitting a Great Bug Report](#submitting-a-great-bug-report)
+    - [Update Suggestions](#update-suggestions)
+  - [Submitting Enhancement Suggestions](#submitting-enhancement-suggestions)
+    - [Initial Contributions](#initial-contributions)
+      - [ENV](#env)
 
-## I Have a Question
+## Questions
 
-> If you want to ask a question, we assume that you have read the available [Documentation](https://luka-hietala.gitbook.io/documentation-for-the-reddit-bot/).
+Existing issues can be located at the [Issues](https://github.com/alexandertomsovic/RedditTikTokBot/issues) page of this repository. This page will usually have solutions to problems that you may be experiencing, or will answer any questions that may arise.
 
-Before you ask a question, it is best to search for existing [Issues](https://github.com/elebumm/RedditVideoMakerBot/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+If your question or problem isn't already documented on this page, we recommend the following:
 
-If you then still feel the need to ask a question and need clarification, we recommend the following:
+- Open a new [Issue](https://github.com/alexandertomsovic/RedditTikTokBot/issues/new).
+- Make sure to be detailed and thorough with your problem explanation. 
+- Include project / platform versions (NPM, NodeJS, etc), depending on what you deem as relevant.
+- Cross your fingers!
 
-- Open an [Issue](https://github.com/elebumm/RedditVideoMakerBot/issues/new).
-- Provide as much context as you can about what you're running into.
-- Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
+I will try my best to tackle all issues posted. Other devs may also be able to help sooner than I am.
 
-We will then take care of the issue as soon as possible.
+## Contributions
 
-Additionally, there is a [Discord Server](https://discord.gg/swqtb7AsNQ) for any questions you may have
+### Bug Reports
 
-## I Want To Contribute
+<details><summary><h4>Before you create a bug report</h4></summary>
 
-### Reporting Bugs
+Please be as thorough as possible in your report so that othger devs can provide help without needing any extra details. Please see below as a blueprint for solving the error yourself before you submit a bug report. 
 
-<details><summary><h4>Before Submitting a Bug Report</h4></summary>
+- Make sure that you are using the latest version of the RedditTikTokBot
+- Confirm the bug isn't an error via your end, such as using incompatible software environments.
+- For support, view the [Questions section](#questions)).
+- Other users may have experienced and solved the same problem that you're dealing with. You may find a bug report and sollution that matches your problem via the [Issues](https://github.com/alexandertomsovic/RedditTikTokBot/issues) page.
+- Other sources such as [StackOverflow](https://stackoverflow.com) may come in handy as someone before you most likely had the same issue
+- Gather bug information such as:
+  - Traceback (stack) - code-block format.
+  - Platform version and OS (MacOS, Windows, Linux, etc)
+  - Your terminal / compiler version or any other releveant pieces of information.
+  - Your input and the program's output
+  - Is your bug reproducible or was it a single occurance?       
 
-A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
+#### Submitting a Great Bug Report
 
-- Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g., using incompatible environment components/versions (Make sure that you have read the [documentation](https://luka-hietala.gitbook.io/documentation-for-the-reddit-bot/). If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [issues](https://github.com/elebumm/RedditVideoMakerBot/).
-- Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue - you probably aren't the first to get the error!
-- Collect information about the bug:
-  - Stack trace (Traceback) - preferably formatted in a code block.
-  - OS, Platform and Version (Windows, Linux, macOS, x86, ARM)
-  - Version of the interpreter, compiler, SDK, runtime environment, package manager, depending on what seems relevant.
-  - Your input and the output
-  - Is the issue reproducible? Does it exist in previous versions?
+- Open an [Issue](https://github.com/alexandertomsovic/RedditTikTokBot/issues/new) Please don't create a bug report until you've read [Bug Reports](#bug-reports) and confirmed that your issue hasn't already been documented and solved.
+- Explain your expected output vs. your actual output.
+- Please describe the _reproduction steps_ that another dev can follow to recreate the issue on their end. Be sure to isolate the problem to reduce test cases.
 
-#### How Do I Submit a Good Bug Report?
+After filing the report:
 
-We use GitHub issues to track bugs and errors. If you run into an issue with the project:
-
-- Open an [Issue](https://github.com/elebumm/RedditVideoMakerBot/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
-- Explain the behavior you would expect and the actual behavior.
-- Please provide as much context as possible and describe the _reproduction steps_ that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
-- Provide the information you collected in the previous section.
-
-Once it's filed:
-
-- The project team will label the issue accordingly.
-- A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will try to support you as best as they can, but you may not receive an instant.
-- If the team discovers that this is an issue it will be marked `bug` or `error`, as well as possibly other tags relating to the nature of the error), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
+- I will try my best to reproduce your issue in order to accurately diagnose it and solve it in a timely manner. If I am unable to assist you myself, other developers may be able to assist you faster and get you on the right track. 
+- If it is an issue, we will make it as either `error` or `bug`.
 </details>
 
-### Suggesting Enhancements
+### Update Suggestions
 
-This section guides you through submitting an enhancement suggestion for Reddit Video Maker Bot, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
+This summary will give you a better understanding of how to suggest and implement updates **including new features, minor fixes, and complex functionality changes**. By following these guidelines, you will increase your chances of having your idea implemented! 
 
-<details><summary><h4>Before Submitting an Enhancement</h4></summary>
+<details><summary><h4>Before Submitting a Suggestion</h4></summary>
 
-- Make sure that you are using the latest version.
-- Read the [documentation](https://luka-hietala.gitbook.io/documentation-for-the-reddit-bot/) carefully and find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [search](https://github.com/elebumm/RedditVideoMakerBot/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
-- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset.
+- Confirm that your version and software are up to date.
+- Skim the [documentation](https://luka-hietala.gitbook.io/documentation-for-the-reddit-bot/) to confirm your function hasn't already been covered.
+- Perform a [search](https://github.com/alexandertomsovic/RedditTikTokBot/issues) to see if your suggestion has already been suggested. Add a comment to the post if it already has been suggested, rather than creating a duplicate post. 
+- Does your idea fit the functionality of the project?
+- It's your responsibility to convince the project's devs of your features merits. These features shgould be useful and sleak, no matter how big or small. 
+- Imagine yourself using this feature, would it be worth it to you to have it proghrammed into the project?
 
-#### How Do I Submit a Good Enhancement Suggestion?
+## Submitting Enhancement Suggestions 
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/elebumm/RedditVideoMakerBot/issues).
+Enhancement suggestions are tracked as [GitHub Issues](https://github.com/alexandertomsovic/RedditTikTokBot/issues).
 
-- Use a **clear and descriptive title** for the issue to identify the suggestion.
-- Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
-- **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
-- **Explain why this enhancement would be useful** to most users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
+- Start with a *descriptive title* to identify the suggestion.
+- Provide your suggestion in detailed steps in order to obtain the best results.
+- Describe your current behavior as well as why you expected to see a different behavior.
+- You may want to include screenshots of your current behavior which help you demonstrate the steps that relate to your suggestion. 
+- Explain what this enhancement would provide to other users. 
 
 </details>
 
-### Your First Code Contribution
+### Initial Contributions
 
-#### Your environment
+#### ENV
 
-You development environment should follow the requirements stated in the [README file](README.md). If you are not using the specified versions, **please reference this in your pull request**, so reviewers can test your code on both versions.
+Your coding environment needs to be in allignment with the [README file](README.md) in order to guarantee success.
 
-#### Making your first PR
-
-When making your PR, follow these guidelines:
-
-- Your branch has a base of _develop_, **not** _master_
-- You are merging your branch into the _develop_ branch
-- You link any issues that are resolved or fixed by your changes. (this is done by typing "Fixes #\<issue number\>") in your pull request.
-
-### Improving The Documentation
-
-All updates to the documentation should be made in a pull request to [this repo](https://github.com/LukaHietala/reddit-bot-docs)
+Thank you :)
