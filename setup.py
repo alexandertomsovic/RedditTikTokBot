@@ -6,21 +6,21 @@
 import os
 import subprocess
 import re
-from utils.console import print_markdown
 from utils.console import print_step
 from rich.console import Console
 from utils.loader import Loader
+from utils.console import print_markdown
 
 console = Console()
 
 
 def handle_input(
     message: str = "",
-    check_type=False,
     match: str = "",
+    check_type=False,
     err_message: str = "",
-    nmin=None,
     nmax=None,
+    nmin=None,
     oob_error="",
 ):
     match = re.compile(match + "$")
@@ -31,19 +31,19 @@ def handle_input(
                 try:
                     user_input = check_type(user_input)
                     if nmin is not None and user_input < nmin:
-                        console.log("[red]" + oob_error)  # Input too low failstate
+                        console.log("[red]" + oob_error)  # FAIL - Input too low
                         continue
                     if nmax is not None and user_input > nmax:
-                        console.log("[red]" + oob_error)  # Input too high
+                        console.log("[red]" + oob_error)  # FAIL - Input too high
                         continue
-                    break  # Successful type conversion and number in bounds
+                    break  # Successful conversion
                 except ValueError:
-                    console.log("[red]" + err_message)  # Type conversion failed
+                    console.log("[red]" + err_message)  # FAIL - Conversion Type
                     continue
-            if nmin is not None and len(user_input) < nmin:  # Check if string is long enough
+            if nmin is not None and len(user_input) < nmin:  # Checks string length
                 console.log("[red]" + oob_error)
                 continue
-            if nmax is not None and len(user_input) > nmax:  # Check if string is not too long
+            if nmax is not None and len(user_input) > nmax:  # Check string length bounds 
                 console.log("[red]" + oob_error)
                 continue
             break
@@ -54,72 +54,67 @@ def handle_input(
 
 if os.path.isfile(".setup-done-before"):
     console.log(
-        "[red]Setup was already completed! Please make sure you have to run this script again. If that is such, delete the file .setup-done-before"
+        "[red]Setup has already been completed! Please confirm that you have to rerun program. If so, delete the file .setup-done-before"
     )
     exit()
 
-# These lines ensure the user:
-# - knows they are in setup mode
-# - knows that they are about to erase any other setup files/data.
 
-print_step("Setup Assistant")
+# Allows the user to exit the wizard if they're not supposed to access it. 
+print_step("RedditTikTokBot Setup Wizarc")
 print_markdown(
-    "### You're in the setup wizard. Ensure you're supposed to be here, then type yes to continue. If you're not sure, type no to quit."
+    "### You'vr accessed the setup wizard. Type 'yes' to continue or 'no' to quit. "
 )
 
 
-# This Input is used to ensure the user is sure they want to continue.
-if input("Are you sure you want to continue? > ").strip().casefold() != "yes":
-    console.print("[red]Exiting...")
+if input("Are you sure you'd like to continue? > ").strip().casefold() != "yes":
+    console.print("[red]Exiting setup weizard...")
     exit()
-# This code is inaccessible if the prior check fails, and thus an else statement is unnecessary
 
 
-# Again, let them know they are about to erase all other setup data.
+# Confirm with the user that all data previously saved will be deleted.                          
 console.print(
-    "[bold red] This will overwrite your current settings. Are you sure you want to continue? [bold green]yes/no"
+    "[bold red] This action will reset your current settings. Type [bold green]'yes' to continue or [red]'no' [white]to quit"
 )
 
-
 if input("Are you sure you want to continue? > ").strip().casefold() != "yes":
-    console.print("[red]Abort mission! Exiting...")
+    console.print("[red]Exiting Setup...")
     exit()
 # This is once again inaccessible if the prior checks fail
 # Once they confirm, move on with the script.
-console.print("[bold green]Alright! Let's get started!")
+console.print("[bold green]Let's get started!")
 
 print()
-console.log("Ensure you have the following ready to enter:")
+console.log("Gather the following information:")
 console.log("[bold green]Reddit Client ID")
 console.log("[bold green]Reddit Client Secret")
 console.log("[bold green]Reddit Username")
-console.log("[bold green]Reddit Password")
-console.log("[bold green]Reddit 2FA (yes or no)")
-console.log("[bold green]Opacity (range of 0-1, decimals are OK)")
+console.log("[bold green]Reddit Password")     
+console.log("[bold green]Reddit 2FA ('yes' or 'no')")
+console.log("[bold green]Opacity range (1 - 10 as whole nums)")
 console.log("[bold green]Subreddit (without r/ or /r/)")
-console.log("[bold green]Theme (light or dark)")
+console.log("[bold green]Theme (dark or light)")
 console.print(
-    "[green]If you don't have these, please follow the instructions in the README.md file to set them up."
+    "[green]If you don't have any of the following, please follow the instructions in the README.md file to obtain each prerequisite."
 )
 console.print(
-    "[green]If you do have these, type yes to continue. If you dont, go ahead and grab those quickly and come back."
+    "[green]If you do have everything listed, type 'yes' to continue."
 )
 print()
 
 
-if input("Are you sure you have the credentials? > ").strip().casefold() != "yes":
+if input("do you have the necessary credentials? > ").strip().casefold() != "yes":
     console.print("[red]I don't understand that.")
-    console.print("[red]Exiting...")
+    console.print("[red]Exiting setup...")
     exit()
 
 
-console.print("[bold green]Alright! Let's get started!")
+console.print("[bold green]Lets start...")
 
 # Begin the setup process.
 
-console.log("Enter your credentials now.")
+console.log("Enter your credentials")
 client_id = handle_input(
-    "Client ID > ",
+    "Client ID: ",
     False,
     "[-a-zA-Z0-9._~+/]+=*",
     "That is somehow not a correct ID, try again.",
@@ -128,7 +123,7 @@ client_id = handle_input(
     "The ID should be over 12 and under 30 characters, double check your input.",
 )
 client_sec = handle_input(
-    "Client Secret > ",
+    "Client Secret:  b   ",
     False,
     "[-a-zA-Z0-9._~+/]+=*",
     "That is somehow not a correct secret, try again.",
