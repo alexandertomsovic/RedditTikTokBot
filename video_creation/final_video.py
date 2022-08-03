@@ -143,7 +143,7 @@ def make_final_video(number_of_clips, length):
     print_step("Removing temp files")
     cleanups = cleanup()
     print_substep(f"Removed {cleanups} temp files")
-    print_substep("You'll find your video in the 'results' folder.")
+    print_substep("You'll find your complete video in the 'results' folder.")
     print_substep("Thank you for using RedditTikTokBot, a program by Alexander Tomsovic!")
 
     print_step(
