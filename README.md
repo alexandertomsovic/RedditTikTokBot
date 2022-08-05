@@ -8,9 +8,9 @@ Created by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
 
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://imgur.com/a/3qaQAFC">
-  <source media="(prefers-color-scheme: light)" srcset="https://imgur.com/a/3qaQAFC">
-  <img src="" width="350">
+  <source media="(prefers-color-scheme: dark)" srcset="https://postimg.cc/s185kMzR">
+  <source media="(prefers-color-scheme: light)" srcset="https://postimg.cc/s185kMzR">
+  <img src="https://postimg.cc/s185kMzR" width="350">
 </picture>
 
 ![A.R.T. Corp Logo](https://github.com/[alexandertomsovic]/[RedditTikTokBot]/blob/[main]/ARTCORP_Logo_Clear.jpeg?raw=true)
