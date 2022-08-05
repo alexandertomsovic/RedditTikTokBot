@@ -93,6 +93,6 @@ RedditTikTokBot, an opensource project by A.R.T. LLC.
 
 Owned and operated by *Alexander Tomsovic*
 
-[LinkTree](https://linktr.ee/alextomsovic) | [Replit](https://replit.com/@alextomsovic) | [inStock](https://instockapp.org)
+[LinkTree](https://linktr.ee/alextomsovic) | [Replit](https://replit.com/@alextomsovic) | [inStock](https://instockapp.org) | [LexBot](https://lexbot.org)
 
 
