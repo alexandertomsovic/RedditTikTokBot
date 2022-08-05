@@ -13,7 +13,7 @@ Created by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
   <img src="" width="350">
 </picture>
 
-![A.R.T. Corp Logo](https://github.com/[alexandertomsovic]/[RedditTikTokBot]/blob/[main]/ARTCORP_Logo_Clear.jpeg?raw=true)
+![A.R.T. Corp Logo](https://user-images.githubusercontent.com/84757117/183130684-e6480d86-72d3-467a-972d-19af2bb61f93.jpeg)
 </a>
 
 ## Utility 
