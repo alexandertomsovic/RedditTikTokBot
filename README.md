@@ -8,12 +8,10 @@ Created by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
 
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://postimg.cc/s185kMzR">
-  <source media="(prefers-color-scheme: light)" srcset="https://postimg.cc/s185kMzR">
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/183130684-e6480d86-72d3-467a-972d-19af2bb61f93.jpeg">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/183130684-e6480d86-72d3-467a-972d-19af2bb61f93.jpeg">
   <img src="" width="350">
 </picture>
-
-![A.R.T. Corp Logo](https://user-images.githubusercontent.com/84757117/183130684-e6480d86-72d3-467a-972d-19af2bb61f93.jpeg)
 </a>
 
 ## Utility 
