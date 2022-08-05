@@ -10,7 +10,7 @@ Created by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://postimg.cc/s185kMzR">
   <source media="(prefers-color-scheme: light)" srcset="https://postimg.cc/s185kMzR">
-  <img src="https://postimg.cc/s185kMzR" width="350">
+  <img src="" width="350">
 </picture>
 
 ![A.R.T. Corp Logo](https://github.com/[alexandertomsovic]/[RedditTikTokBot]/blob/[main]/ARTCORP_Logo_Clear.jpeg?raw=true)
