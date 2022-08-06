@@ -54,7 +54,7 @@ def handle_input(
 
 if os.path.isfile(".setup-done-before"):
     console.log(
-        "[red]Setup has already been completed! Please confirm that you have to rerun program. If so, delete the file .setup-done-before"
+        "[red]Setup complete! Please confirm that you have to rerun program. If so, delete the file .setup-done-before"
     )
     exit()
 
@@ -103,7 +103,7 @@ print()
 
 
 if input("do you have the necessary credentials? > ").strip().casefold() != "yes":
-    console.print("[red]I don't understand that.")
+    console.print("[red]I didn't understand.")
     console.print("[red]Exiting setup...")
     exit()
 
