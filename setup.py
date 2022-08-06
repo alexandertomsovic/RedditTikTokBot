@@ -54,7 +54,7 @@ def handle_input(
 
 if os.path.isfile(".setup-done-before"):
     console.log(
-        "[red]Setup has already been completed! Please confirm that you have to rerun program. If so, delete the file .setup-done-before"
+        "[red]Setup already complete. Please confirm that you have to rerun program. If so, delete the file .setup-done-before"
     )
     exit()
 
