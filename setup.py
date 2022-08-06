@@ -76,7 +76,7 @@ console.print(
     "[bold red] This action will reset your current settings. Type [bold green]'yes' to continue or [red]'no' [white]to quit"
 )
 
-if input("Are you sure you want to continue? > ").strip().casefold() != "yes":
+if input("Are you sure you wish to continue? > ").strip().casefold() != "yes":
     console.print("[red]Exiting Setup...")
     exit()
 # This is once again inaccessible if the prior checks fail
