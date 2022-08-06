@@ -2,7 +2,7 @@
 
 RedditTikTokBot automates the creation of the viral TikTok Reddit comment-read video format by compiling gameplay and sourcing interesting threads from various subreddits to allow users to generate unlimited content for spaces such as TikTok, Youtube shorts, and Instagram Reels!  
 
-Enjoy!
+Please include a link to this [GitHub Repo](https://github.com/alexandertomsovic/RedditTikTokBot) in the comments section of your videos. Enjoy!
 
 Created by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
 
