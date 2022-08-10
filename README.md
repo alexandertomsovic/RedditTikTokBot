@@ -95,3 +95,4 @@ Owned and operated by *Alexander Tomsovic*
 [LinkTree](https://linktr.ee/alextomsovic) | [Replit](https://replit.com/@alextomsovic) | [inStock](https://instockapp.org) | [LexBot](https://lexbot.org)
 
 
+![](https://img.shields.io/static/v1?label=Status&style=flat-square&message=running&color=brightgreen)
