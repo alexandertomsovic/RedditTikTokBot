@@ -1,7 +1,7 @@
 # Reddit TikTok Video Bot 
 
 ![](https://img.shields.io/static/v1?label=Bot+Status&style=flat-square&message=Active&color=brightgreen)
-![](https://img.shields.io/static/v1?label=Python&logo=python&style=flat-square&message=Version+3.9&color=3776AB)
+![](https://img.shields.io/static/v1?label=Python&logo=python&style=flat-square&message=Version+3.8&color=3776AB)
 
 RedditTikTokBot automates the creation of the viral TikTok Reddit comment-read video format by compiling gameplay and sourcing interesting threads from various subreddits to allow users to generate unlimited content for spaces such as TikTok, Youtube shorts, and Instagram Reels!  
 
