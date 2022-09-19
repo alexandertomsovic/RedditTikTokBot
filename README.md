@@ -1,5 +1,8 @@
 # Reddit TikTok Video Bot 
 
+![](https://img.shields.io/static/v1?label=Bot+Status&style=flat-square&message=Active&color=brightgreen)
+![](https://img.shields.io/static/v1?label=Python&logo=python&style=flat-square&message=Version+3.9&color=3776AB)
+
 RedditTikTokBot automates the creation of the viral TikTok Reddit comment-read video format by compiling gameplay and sourcing interesting threads from various subreddits to allow users to generate unlimited content for spaces such as TikTok, Youtube shorts, and Instagram Reels!  
 
 Please include a link to this [GitHub Repo](https://github.com/alexandertomsovic/RedditTikTokBot) in the comments section of your videos. Enjoy!
@@ -8,8 +11,8 @@ Created by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
 
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/185300584-bf5c08aa-15a5-442c-a580-87c3a701c5b7.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/185300584-bf5c08aa-15a5-442c-a580-87c3a701c5b7.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/189466772-50ae7326-ec5e-4b68-879d-a269cdc84c78.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/189466772-50ae7326-ec5e-4b68-879d-a269cdc84c78.png">
   <img src="" width="350">
 </picture>
 </a>
