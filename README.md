@@ -92,6 +92,8 @@ RedditTikTokBot works perfectly in its current version, but I believe there is a
 
 Please read the [**contributing guidelines**](CONTRIBUTING.md) for more information!
 
-![](https://img.shields.io/static/v1?label=LinkTree&logo=linktree&style=flat-square&message=AlexTomsovic&color=03c04a)
+![](https://img.shields.io/static/v1?label=Total+Videos+Generated&style=flat-square&message=36,281&color=4c00b0)
+[![](https://img.shields.io/static/v1?label=LinkTree&logo=linktree&style=flat-square&message=AlexTomsovic&color=03c04a)](https://linktr.ee/alextomsovic)
 ![](https://img.shields.io/static/v1?label=Reddit&logo=reddit&style=flat-square&message=@alexTomsovic&color=FF4500)
+
 
