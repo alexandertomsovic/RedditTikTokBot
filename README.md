@@ -7,7 +7,10 @@ RedditTikTokBot automates the creation of the viral TikTok Reddit comment-read v
 
 Please include a link to this [GitHub Repo](https://github.com/alexandertomsovic/RedditTikTokBot) in the comments section of your videos. Enjoy!
 
-Created by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
+## Creator
+- RedditTikTokBot, its code, and this repositoru is owned and operated by [Alexander Tomsovic](https://linktr.ee/alextomsovic)
+- Engineered by A.R.T. LLC
+- No generated content is owned by Alexander Tomsovic or A.R.T. LLC. 
 
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
@@ -31,11 +34,11 @@ We are working to implement an feature that will allow instant autonomous upload
 
 - Python 3.8+
 - Playwright (should be installed with requirements in the first installation leg)
-- [SoX](https://sourceforge.net/projects/sox/files/sox/)
+- [**SoX**](https://sourceforge.net/projects/sox/files/sox/)
 
 ## Initial Installation 
 
-1. Clone this repository via [GitHub](https://github.com/alexandertomsovic/RedditTikTokBot)
+1. Clone this repository via [**GitHub**](https://github.com/alexandertomsovic/RedditTikTokBot)
 
 2. 2A **Automatic Install**: Run `python main.py` and type "yes" to initiate automatic setup. 
    If this step fails, try manually installing.
@@ -52,7 +55,7 @@ We are working to implement an feature that will allow instant autonomous upload
 
 ## Primary Installation
 
-1. Install [SoX](https://sourceforge.net/projects/sox/files/sox/)
+1. Install [**SoX**](https://sourceforge.net/projects/sox/files/sox/)
    
 2. Run `pip install -r requirements.txt` into your Python Terminal.
 
@@ -65,7 +68,7 @@ We are working to implement an feature that will allow instant autonomous upload
 If  you get an error installing or running the bot:
 
 -  Rerun the command with a "3" after the name (python3 or pip3)
--  Reinstall the repository from [GitHub](https://github.com/alexandertomsovic/RedditTikTokBot)
+-  Reinstall the repository from [**GitHub**](https://github.com/alexandertomsovic/RedditTikTokBot)
 - Create a Repository pull request via GitHub
 
 ## Video
@@ -76,26 +79,21 @@ https://user-images.githubusercontent.com/66544866/173453972-6526e4e6-c6ef-41c5-
 
 RedditTikTokBot works perfectly in its current version, but I believe there is a lot to be desired. Here are a list of items that should be implemented in the near future in order to maximize this program's utility.
 
-- [ ] Automatic uploads to social media accounts.
-- [ ] Writing a thourough documentation and impementing a CLI.
-- [ ] Bypassing *CLIENT ID* and *Secret Key* requirements. 
-- [x] Allowing custom reddit threads. 
 - [x] Allowing users to choose a background that is picked instead of the Minecraft one.
 - [x] Allowing users to choose between any subreddit.
 - [x] Allowing users to change voice.
 - [x] Checks if a video has already been created
 - [x] Light and Dark modes
+- [x] Allowing custom reddit threads. 
 - [x] NSFW post filter
+- [ ] Automatic uploads to social media accounts.
+- [ ] Writing a thourough documentation and impementing a CLI.
+- [ ] Bypassing *CLIENT ID* and *Secret Key* requirements. 
 
-Please read the [contributing guidelines](CONTRIBUTING.md) for more information!
+Please read the [**contributing guidelines**](CONTRIBUTING.md) for more information!
 
 
-------------------------------------------------------------------------------------
-RedditTikTokBot, an opensource project by A.R.T. LLC.
-
-Owned and operated by *Alexander Tomsovic*
-
-[LinkTree](https://linktr.ee/alextomsovic) | [Replit](https://replit.com/@alextomsovic) | [inStock](https://instockapp.org) | [LexBot](https://lexbot.org)
-
+[LinkTree](https://linktr.ee/alextomsovic) [Replit](https://replit.com/@alextomsovic) | [inStock](https://instockapp.org) | [LexBot](https://lexbot.org)
+![](https://img.shields.io/static/v1?label=LinkTree&logo=linktree&style=flat-square&message=AlexTomsovic&color=03c04a)
 
 
